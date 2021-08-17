@@ -15,13 +15,13 @@ const mainController = {
         console.log("teamsNames 1 --> ", teamsNames);
         console.log("githubUsers 1 --> ", githubUsers);
 
+        // // Décommenter ce bloc de code pour faire des essais. Les deux users github ci-dessous peuvent être testés.
         // orga = "aleks-test-dev-2"
         // teamsNames = req.query.teamsNames.split(',');
         // githubUsers = ["lxoclock", "alexishessler"]
         // console.log("orga 2 --> ", orga);
         // console.log("teamsNames 2 --> ", teamsNames);
         // console.log("githubUsers 2 --> ", githubUsers);
-        // // res.json({result: true})
 
         const execCreateTeamsAndProjects = async (counter) => {
            
