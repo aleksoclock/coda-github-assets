@@ -1,0 +1,15 @@
+{
+  "name": "coda",
+  "version": "1.0.0",
+  "description": "Script to auto generate Apo teams and projects and populate them with appropriate users",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "octokit": "^1.4.0"
+  }
+}
