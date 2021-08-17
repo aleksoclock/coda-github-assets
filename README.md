@@ -13,7 +13,7 @@ Toutes les instructions sont à suivre dans l'ordre.
 
 ### 2) Sur Coda
 
-- Adaptez avec votre nom de l'organisation cible (cad dans laquelle vous souhaitez créer les assets) le contenu de la première cellule de la colonne _URL GH ORGANIZATION_ : par exemple `O-clock-Uther`.
+- Adaptez avec votre nom de l'organisation cible (cad dans laquelle vous souhaitez créer les assets) le contenu de la première cellule de la colonne _URL GH ORGANIZATION_ : par exemple `O-clock-Uther`. Dupliquer la cellule au sein de toute cette même colonne.
 - Cliquez sur le bouton _Créer Github Teams, Repos & Users_ depuis la colonne Actions Github. Un nouvel onglet du navigateur doit s'ouvrir. Attendez d'avoir `{"result":true,"url":"https://www.github.com/{votre-orga-github}"}` sur ce nouvel onglet pour renouveler l'opération.
 
 ### 3) Sur Github
