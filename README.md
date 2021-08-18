@@ -8,7 +8,7 @@ Toutes les instructions sont à suivre dans l'ordre.
 
 - La première fois : clonez le repository en local.
 - Installez le projet avec `npm install`.
-- Créez à la racine du projet nouveau un fichier `.env` sur la base sur fichier `.env.example` : vous devez simplement intégrer votre token Github qui doit posséder les droits appropriés.
+- Créez à la racine du projet nouveau un fichier `.env` sur la base sur fichier `.example` : vous devez simplement intégrer votre token Github qui doit posséder les droits appropriés.
 - Il ne reste plus qu'à executer `npm start`
 
 ### 2) Sur Coda
