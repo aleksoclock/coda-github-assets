@@ -58,8 +58,6 @@ const mainController = {
                     const teamUpdate = await octokit.request(`PUT /orgs/${orga}/teams/${teamsNames[counter]}/repos/${orga}/projet-${teamsNames[counter].split('team-')[1]}`, {
                         permission: 'maintain'
                       })
-                      console.log("ERRRRRROR 1")
-                      console.log(teamUpdate)
                   }, 2000);
                   githubErrors.push({"STEP 3 > TEAM RIGHTS TO REPO" : "SUCCESS"})
                 } catch(catchStep3) {
