@@ -18,13 +18,13 @@ const mainController = {
         const usersCreated = [];
         let usersBug = 0;
 
-        // Décommenter ce bloc de code pour faire des essais. Les deux users github ci-dessous peuvent être testés.
-        orga = "aleks-test-dev-2"
-        teamsNames = req.query.teamsNames.split(',');
-        githubUsers = ["lxoclock", "aleks123abchessleré", "alexishessler", "aleks123abchessleré333"]
-        console.log("orga 2 --> ", orga);
-        console.log("teamsNames 2 --> ", teamsNames);
-        console.log("githubUsers 2 --> ", githubUsers);
+        // // Décommenter ce bloc de code pour faire des essais. Les deux users github ci-dessous peuvent être testés.
+        // orga = "aleks-test-dev-2"
+        // teamsNames = req.query.teamsNames.split(',');
+        // githubUsers = ["lxoclock", "aleks123abchessleré", "alexishessler", "aleks123abchessleré333"]
+        // console.log("orga 2 --> ", orga);
+        // console.log("teamsNames 2 --> ", teamsNames);
+        // console.log("githubUsers 2 --> ", githubUsers);
 
         const execCreateTeamsAndProjects = async (counter) => {
            
@@ -54,6 +54,7 @@ const mainController = {
                 try {
 
                   setTimeout(async () => {
+                    // security of 2000ms to update the rights of team created just now
                     const teamUpdate = await octokit.request(`PUT /orgs/${orga}/teams/${teamsNames[counter]}/repos/${orga}/projet-${teamsNames[counter].split('team-')[1]}`, {
                         permission: 'maintain'
                       })
